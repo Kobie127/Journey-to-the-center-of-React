@@ -15,9 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Keeper
         </a>
-      </header>
+      </header>s
     </div>
   );
 }
