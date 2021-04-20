@@ -14,17 +14,30 @@
     padding: 0 16px;
   }
   
-  header {
+  .header {
     background-color: #f5ba13;
     margin: auto -16px;
     padding: 16px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
   
-  header h1 {
+  .header h1 {
     color: #fff;
     font-family: "McLaren", cursive;
     font-weight: 200;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .options .option {
+    padding: 10px 15px;
+    cursor: pointer;
   }
   
   footer {
@@ -108,4 +121,33 @@
     cursor: pointer;
     outline: none;
   }
+
+.sign-in{
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up{
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+
+.title{
+    margin: 10px 0;
+}
+
+.buttons{
+    display:flex;
+    justify-content: space-between;
+}
+
+.sign-in-and-sign-up{
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
   

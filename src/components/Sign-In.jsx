@@ -1,6 +1,6 @@
 import React from 'react';
-import FormInput from './Form-Input.jsx';
-import CustomButton from './Custom-Button.jsx';
+import FormInput from '../components/Form-Input/Form-Input.jsx';
+import CustomButton from '../components/Custom-Button/Custom-Button.jsx';
 import {auth, signInWithGoogle} from '../firebase/firebase.utils';
 import { Component } from 'react';
 
